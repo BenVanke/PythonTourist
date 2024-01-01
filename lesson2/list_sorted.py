@@ -1,6 +1,8 @@
 bicycles = ['stek', 'cannodale', "redline", 'special']
-print(bicycles)
+print("source:", bicycles)
 
-sorted(bicycles)            # 临时排序
+sorted(bicycles)            # temporary sort
 print(sorted(bicycles))
 print(bicycles)
+
+print(sorted(bicycles, reverse=True))
